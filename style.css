@@ -2,7 +2,7 @@ fieldset {
   margin: 0 auto;
   width: 400px;
   border: 1px solid #e3c78e;
-  padding: 10px;
+  padding: 1em;
   border-radius: 1em;
   background-image: url(https://cdn.pixabay.com/photo/2022/08/24/11/10/autumn-7407475_960_720.jpg);
   background-position: 4em;
@@ -17,7 +17,7 @@ form li + li {
 }
 form li {
   font-weight: 900;
-  font-size: 16px;
+  font-size: 1em;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -28,7 +28,9 @@ label {
 }
 input,
 textarea {
-  font: 1em "Lucida Sans";
+  font-size: 1em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   width: 300px;
   box-sizing: border-box;
   border: 1px solid #999;
@@ -42,13 +44,14 @@ textarea {
   height: 10em;
 }
 .button {
-  padding-left: 170px;
+  padding-left: 155px;
 }
 button:hover {
   margin-left: 0.3em;
   border: 1px solid #e3c78e;
-  padding: 10px;
-  background-color: white;
+  padding: 1em;
+  background-color: #fff;
+  font-weight: 900;
   text-transform: uppercase;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -57,15 +60,16 @@ button:hover {
 button {
   margin-left: 0.3em;
   border: 1px solid #e3c78e;
-  padding: 10px;
+  padding: 1em;
   background-color: #e3c78e;
+  font-weight: 900;
   text-transform: uppercase;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: white;
+  color: #fff;
 }
 legend {
-  font-size: 24px;
+  font-size: 2em;
   text-align: center;
   font-weight: 900;
   color: #e3c78e;
